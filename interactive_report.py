@@ -15,7 +15,7 @@ output_dir = "/tmp/output"
 os.makedirs(output_dir, exist_ok=True)
 
 # Import the CSV file
-data = pd.read_csv("/Users/dan/Desktop/all.csv")
+data = pd.read_csv("all.csv")
 
 # Function to perform t-test and generate statistics based on GDP percentile split
 def analyze_split(data, percentile_threshold):
