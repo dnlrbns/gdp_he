@@ -11,7 +11,7 @@ import webbrowser
 from threading import Timer
 
 # Create an output directory
-output_dir = "/Users/dan/Desktop/output"
+output_dir = "/tmp/output"
 os.makedirs(output_dir, exist_ok=True)
 
 # Import the CSV file
