@@ -10,9 +10,9 @@ from dash.dependencies import Input, Output
 import webbrowser
 from threading import Timer
 
-# Create an output directory
-output_dir = "/tmp/output"
-os.makedirs(output_dir, exist_ok=True)
+# # Create an output directory
+# output_dir = "/tmp/output"
+# os.makedirs(output_dir, exist_ok=True)
 
 # Import the CSV file
 data = pd.read_csv("all.csv")
